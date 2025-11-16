@@ -5,6 +5,7 @@ chính xác các biển báo giao thông trở thành một yếu tố quan tr�
 bảo an toàn, hỗ trợ lái xe và phát triển các hệ thống xe tự lái. Những biển báo
 này không chỉ chứa thông tin hướng dẫn mà còn giúp điều tiết giao thông,
 giảm thiểu tai nạn và nâng cao hiệu quả lưu thông trên đường.
+
 Ngày nay, với sự phát triển mạnh mẽ của công nghệ trí tuệ nhân tạo, việc ứng
 dụng các phương pháp học sâu (Deep Learning), đặc biệt là Mạng nơ-ron tích
 chập (Convolutional Neural Network – CNN), vào việc nhận dạng biển báo
@@ -15,3 +16,10 @@ chính xác. Nhờ khả năng nhận diện các mẫu hình, màu sắc và k�
 trưng của từng loại biển báo, CNN có thể phân biệt các biển báo giống nhau
 về hình dạng nhưng khác nhau về chức năng, đồng thời chịu được những biến
 đổi như góc chụp, ánh sáng và nhiễu hình ảnh.
+
+Dataset được sử dụng dựa trên GTSRB (German Traffic
+Sign Recognition Benchmark), gồm 21.090 hình ảnh với 16 loại biển báo
+khác nhau. Hình ảnh có nhiều kích thước và độ phân giải, được chụp trong
+nhiều điều kiện khác nhau, bao gồm ánh sáng thay đổi, góc nhìn nghiêng,
+biển báo bị che khuất hoặc nhiễu hình ảnh. Mỗi hình ảnh đã được gán nhãn
+đúng loại biển báo, giúp mô hình học các đặc trưng riêng biệt của từng loại.
